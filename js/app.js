@@ -1,5 +1,6 @@
 function Modes() {
-    if (document.body.style.backgroundColor === "white") {
+    if (document.body.style.backgroundColor === "white") 
+    {
         document.body.style.backgroundColor = "black"
         document.body.style.color = "white"
     } else {
@@ -9,14 +10,13 @@ function Modes() {
     }
 }
 function Change() {
-
     let inp_value = document.getElementById('Group').value;
     let x = inp_value.slice(-3, -2);
 
 
     switch (x) {
         case '1':
-            document.getElementById('Letters').innerHTML = "Səhər qrupudur"
+            document.getElementById('Letters').innerHTML = "Səhər Qrupudur"
             document.body.style.backgroundColor = "#F2EFE4"
             break;
 
