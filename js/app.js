@@ -13,7 +13,6 @@ function Change() {
     let inp_value = document.getElementById('Group').value;
     let x = inp_value.slice(-3, -2);
 
-
     switch (x) {
         case '1':
             document.getElementById('Letters').innerHTML = "Səhər Qrupudur"
@@ -34,6 +33,7 @@ function Change() {
 
             document.getElementById('Letters').innerHTML = "Add valid option"
             document.body.style.backgroundColor = "red"
+            document.getElementById('Letters').style.color = "white"
             break;
 
     }
